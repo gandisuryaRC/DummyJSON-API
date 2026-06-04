@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD DummyJSON SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Manajemen Data Produk</h1>
+        
+        <div id="error-message"></div>
+
+        <form id="form-produk">
+            <input type="hidden" id="input-id">
+            <input type="text" id="input-nama" placeholder="Nama Produk" required>
+            <input type="number" id="input-harga" placeholder="Harga (Rp)" required>
+            <button type="submit" id="btn-submit">Tambah Data</button>
+            <button type="button" id="btn-batal" style="display: none;">Batal</button>
+        </form>
+
+        <ul id="daftar-produk"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

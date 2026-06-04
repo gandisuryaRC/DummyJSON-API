@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#error-message {
+    display: none;
+    background-color: #ffe6e6;
+    color: #d63031;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff7675;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-submit {
+    background-color: #0984e3;
+    color: white;
+}
+
+#btn-batal {
+    background-color: #636e72;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.aksi-btn {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-edit {
+    background-color: #fbc531;
+    color: #2f3640;
+}
+
+.btn-hapus {
+    background-color: #e84118;
+    color: white;
+}
